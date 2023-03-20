@@ -10,6 +10,16 @@
     <vendor email="johngrib82@gmail.com" url="https://github.com/johngrib/intellij-idea-playground">johngrib</vendor>
 
     <extensions defaultExtensionNs="com.intellij">
-
     </extensions>
+    <actions>
+        <group id="JohnGrib.Menu"
+               text="JohnGrib"
+               description="John Grib's playground">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="JohnGrib.Menu.Timestamp"
+                    class="com.johngrib.intellijideaplayground.menu.TimestampAction"
+                    text="현재 타임스탬프"
+                    popup="false"/>
+        </group>
+    </actions>
 </idea-plugin>
