@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.johngrib.intellij-idea-playground</id>
+    <name>Idea-Playground</name>
+    <depends>com.intellij.modules.platform</depends>
+    <description>
+      <![CDATA[
+        IntelliJ 플러그인을 실험하며 놉니다. 그때 그때 필요한 걸 대충 집어넣기도 하고..
+      ]]>
+    </description>
+    <vendor email="johngrib82@gmail.com" url="https://github.com/johngrib/intellij-idea-playground">johngrib</vendor>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+</idea-plugin>
